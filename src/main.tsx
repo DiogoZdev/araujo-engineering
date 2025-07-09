@@ -5,11 +5,15 @@ import { Home } from './pages/home'
 import { Page } from './layouts/page'
 
 createRoot(document.getElementById('root')!).render(
-  <Router>
-    <Routes>
-      <Route path="/" element={<Page />}>
-        <Route index element={<Home />} />
-      </Route>
-    </Routes>
-  </Router>
+  <>
+    {/* <Header /> */}
+    <Router>
+      <Routes>
+        <Route path="/" element={<Page />}>
+          <Route index element={<Home />} />
+        </Route>
+      </Routes>
+    </Router>
+    {/* <Footer /> */}
+  </>
 )
