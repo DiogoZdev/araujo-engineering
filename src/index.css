@@ -2,8 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
-  font-family: Montserrat, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --primary-900: hsl(15,94%,13%);
+  --primary-800: hsl(15,94%,23%);
+  --primary-700: hsl(15,84%,33%);
+  --primary-600: hsl(15,74%,43%);
+  --primary-500: hsl(15,64%,53%);
+
+  font-family: 'Libre Franklin', Montserrat, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
